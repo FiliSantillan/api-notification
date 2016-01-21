@@ -1,1 +1,48 @@
-styles.styl
+@import normalize
+@import variables 
+@import default
+
+.header
+    padding 0.5rem
+    text-align center
+    
+.header__logo
+    img
+        width 150px
+        
+.header__title
+    font-size 1.6rem
+    text-transform uppercase
+    letter-spacing 2px
+    
+
+.footer
+    padding 0.5rem
+    text-align center
+    
+.footer__buttons
+    display flex
+    justify-content center
+    flex-wrap wrap
+    .btn
+        width 80%
+        margin 0.5rem
+    
+.footer__social
+    margin 1.5em 0
+    
+.footer__list
+    display flex
+    justify-content center
+    flex-wrap wrap
+    
+    .footer__item
+        margin 0.5rem 0.7rem
+        .footer__icon
+            color white
+            font-size 2.1rem
+            
+.demo
+    padding 0.5rem
+    
+@import demo
