@@ -15,7 +15,6 @@
     text-transform uppercase
     letter-spacing 2px
     
-
 .footer
     padding 0.5rem
     text-align center
@@ -42,7 +41,30 @@
             color white
             font-size 2.1rem
             
-.demo
-    padding 0.5rem
+@media all and (min-width 768px)
+    .header__logo
+        img
+            width 250px
+            
+    .header__title
+        font-size 1.8rem
+    
+    .footer__buttons
+        .btn 
+            width 30%
+            
+
+    .footer__list
+        .footer__item
+            .footer__icon
+                font-size 2.3rem
+                
+@media all and (min-width 1080px)
+    .header__title
+        font-size 2rem
+        
+    .footer__buttons
+        .btn
+            width 20%
     
 @import demo
